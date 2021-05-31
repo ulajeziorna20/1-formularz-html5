@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
 
 
 </head>
+
 <body>
 
     <h2>Formularz zgłoszeniowy na szkolenie</h2>
@@ -19,24 +21,26 @@
 
     <form action="https://formspree.io/f/mrgrqaog" method="POST">
 
-        <label><input type="text" name="username" required>&nbsp&nbspImię <span>*</span></label><br>
+        <label><input type="text" name="username" required>&nbsp;&nbsp;Imię <span>*</span></label><br>
         <br>
-        <label><input type="text" name="surname" required>&nbsp&nbspNazwisko <span>*</span></label><br>
+        <label><input type="text" name="surname" required>&nbsp;&nbsp;Nazwisko <span>*</span></label><br>
         <br>
-        <label><input type="emial" name="email" required placeholder="np.example@example.com">&nbsp&nbspEmail <span>*</span></label><br>
+        <label><input type="email" name="email" placeholder="np.example@example.com">&nbsp;&nbsp;Email
+            <span>*</span></label><br>
         <br>
-        <label><input type="number" name="number" required placeholder="+48...">&nbsp&nbspNumer Tel <span>*</span></label><br>
+        <label><input type="number" name="number" required placeholder="+48...">&nbsp;&nbsp;Numer Tel
+            <span>*</span></label><br>
 
         <br><br>
 
         <h4>Wybierz miasto<span>*</span></h4>
 
-           <select name="city" required>
+        <select name="city" required>
 
-            <option value="Warszawa">Warszawa</option>
-            <option value="Poznań">Poznań</option>
-            <option value="Lublin">Lublin</option>
-        
+            <option value="">Warszawa</option>
+            <option value="">Poznań</option>
+            <option value="">Lublin</option>
+
         </select><br>
         <br><br>
 
@@ -49,10 +53,11 @@
 
         <br><br>
 
-        <input type="checkbox" name="agreement" required>Wyrażam zgodę na przetwarzanie danych osobowych <span>*</span><br>
+        <input type="checkbox" name="agreement" required>Wyrażam zgodę na przetwarzanie danych osobowych
+        <span>*</span><br>
         <br>
 
-        <textarea name="message" id="" cols="60" rows="5" maxlength="130"></textarea><br>
+        <textarea name="message"  cols="60" rows="5" maxlength="130"></textarea><br>
         <br><br>
 
         <label><input type="submit" name="submit" value="Wyślij"></label>
@@ -61,6 +66,7 @@
 
 
     </form>
-    
+
 </body>
+
 </html>
