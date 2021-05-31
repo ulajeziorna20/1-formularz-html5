@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+
+    <h2>Formularz zgłoszeniowy na szkolenie</h2>
+    <br>
+    <hr>
+    <br>
+
+    <form action="">
+
+        <label><input type="text" name="username" required>&nbsp&nbspImię <span>*</span></label><br>
+        <br>
+        <label><input type="text" name="surname" required>&nbsp&nbspNazwisko <span>*</span></label><br>
+        <br>
+        <label><input type="emial" name="email" required placeholder="np.example@example.com">&nbsp&nbspEmail <span>*</span></label><br>
+        <br>
+        <label><input type="number" name="number" required placeholder="+48...">&nbsp&nbspNumer Tel <span>*</span></label><br>
+
+        <br><br>
+
+        <h4>Wybierz miasto<span>*</span></h4>
+
+           <select name="city" required>
+
+            <option value="Warszawa">Warszawa</option>
+            <option value="Poznań">Poznań</option>
+            <option value="Lublin">Lublin</option>
+        
+        </select><br>
+        <br><br>
+
+
+        <input type="radio" name="choice">Kobieta
+        <br>
+        <input type="radio" name="choice">Mężczyzna
+        <br>
+        <input type="radio" name="choice">Nie chcę podawać<br>
+
+        <br><br>
+
+        <input type="checkbox" name="agreement" required>Wyrażam zgodę na przetwarzanie danych osobowych <span>*</span><br>
+        <br>
+
+        <textarea name="message" id="" cols="60" rows="5" maxlength="130"></textarea><br>
+        <br><br>
+
+        <label><input type="submit" name="submit" value="Wyślij"></label>
+
+
+
+
+    </form>
+    
+</body>
+</html>
